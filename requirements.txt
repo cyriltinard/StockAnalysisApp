@@ -9,4 +9,4 @@ numpy
 sklearn
 matplotlib
 pandas_datareader
-annotated_text
+st_annotated_text
