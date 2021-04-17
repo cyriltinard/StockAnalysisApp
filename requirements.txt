@@ -7,3 +7,4 @@ altair
 statistics
 numpy
 sklearn
+matplotlib
