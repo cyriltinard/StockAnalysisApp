@@ -4,7 +4,6 @@ datetime
 pyodbc
 pandas
 altair
-time
 sys
 talib
 annotated_text
