@@ -9,7 +9,7 @@ import altair as alt
 #import sys
 sys.path.append(os.path.abspath(r"C:\Users\cyril\Documents\Stocks\TA"))
 from AutoSupportAndResistance import *
-import talib
+#import talib
 from annotated_text import annotated_text, annotation
 import statistics
 import numpy as np
