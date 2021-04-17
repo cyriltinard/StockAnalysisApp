@@ -8,3 +8,4 @@ statistics
 numpy
 sklearn
 matplotlib
+pandas_datareader
