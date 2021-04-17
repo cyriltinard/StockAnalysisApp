@@ -10,4 +10,3 @@ sklearn
 matplotlib
 pandas_datareader
 st_annotated_text
-TA-Lib
