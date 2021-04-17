@@ -1,7 +1,6 @@
 streamlit
 yfinance
 datetime
-pyodbc==4.0.30
 pandas
 altair
 statistics
