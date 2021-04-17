@@ -3,7 +3,7 @@ import yfinance as yf
 from datetime import datetime, timedelta
 import pyodbc
 import pandas as pd
-import os
+#import os
 import altair as alt
 import time
 import sys
