@@ -3,7 +3,6 @@ yfinance
 datetime
 pyodbc
 pandas
-os
 altair
 time
 sys
