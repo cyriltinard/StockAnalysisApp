@@ -7,7 +7,7 @@ import pandas as pd
 import altair as alt
 #import time
 #import sys
-sys.path.append(os.path.abspath(r"C:\Users\cyril\Documents\Stocks\TA"))
+#sys.path.append(os.path.abspath(r"C:\Users\cyril\Documents\Stocks\TA"))
 from AutoSupportAndResistance import *
 #import talib
 from annotated_text import annotated_text, annotation
