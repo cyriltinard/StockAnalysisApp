@@ -2,7 +2,7 @@ streamlit
 yfinance
 datetime
 unixodbc-dev
-pyodbc
+pyodbc==4.0.30
 pandas
 altair
 statistics
