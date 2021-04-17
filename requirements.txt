@@ -4,7 +4,6 @@ datetime
 pyodbc
 pandas
 altair
-annotated_text
 statistics
 numpy
 sklearn
