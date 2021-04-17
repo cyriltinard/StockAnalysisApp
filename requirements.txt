@@ -4,7 +4,6 @@ datetime
 pyodbc
 pandas
 altair
-talib
 annotated_text
 statistics
 numpy
