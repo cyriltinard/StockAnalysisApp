@@ -236,7 +236,7 @@ with technicals:
     df['MA20'] = df.rolling(window=20).mean()['close']
     df['MA50'] = df.rolling(window=50).mean()['close']
     df['MA200'] = df.rolling(window=200).mean()['close']
-    df['RSI'] = talib.RSI(df["close"])
+    #df['RSI'] = talib.RSI(df["close"])
 
     df1 = df[(df['date']>startDate) & (df['date']<'2021-04-04')]
 
@@ -300,14 +300,14 @@ with technicals:
     
 ## RSI CHART
 
-    st.subheader("RSI")
+    #st.subheader("RSI")
 
-    chart3 = alt.Chart(df1).mark_line().encode(
-            alt.X('date:T',axis=alt.Axis(grid=False, labels=False, tickSize=0, title="")),
-            alt.Y('RSI:Q',axis=alt.Axis(title=""),scale=alt.Scale(domain=[0,100])),
-            color=alt.value(custom_blue)
-        )
-    st.altair_chart(chart3, use_container_width=True)
+    #chart3 = alt.Chart(df1).mark_line().encode(
+    #        alt.X('date:T',axis=alt.Axis(grid=False, labels=False, tickSize=0, title="")),
+    #        alt.Y('RSI:Q',axis=alt.Axis(title=""),scale=alt.Scale(domain=[0,100])),
+    #        color=alt.value(custom_blue)
+    #    )
+    #st.altair_chart(chart3, use_container_width=True)
 
 ## DIVIDENDS
 
