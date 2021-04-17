@@ -7,4 +7,3 @@ altair
 statistics
 numpy
 sklearn
-AutoSupportAndResistance
