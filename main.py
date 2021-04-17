@@ -143,7 +143,7 @@ def writeData(data,name,dataType="value"): #name="Gross Profit", data=financials
                 st.markdown('<p class="%s">%s</p>'%(text_styles[position],data.loc[name][i]),unsafe_allow_html=True)
 
 
-tickersDF = pd.read_excel(r'C:\Users\cyril\Documents\Stocks\Stocks Dashboard.xlsm', sheet_name='Dividend History')
+tickersDF = [] #pd.read_excel(r'C:\Users\cyril\Documents\Stocks\Stocks Dashboard.xlsm', sheet_name='Dividend History')
 tickers = []
 
 tickers = tickersDF['Symbol'].tolist()
