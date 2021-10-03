@@ -118,7 +118,7 @@ def highlight_max(data, color=custom_blue):
 
 def writeData(data,name,dataType="value"): #name="Gross Profit", data=financials
     st.subheader(name)
-    col1,col2,col3,col4 = st.beta_columns([1,1,1,1])
+    col1,col2,col3,col4 = st.columns([1,1,1,1])
     cols = [col1,col2,col3,col4]
     sorted_column = data.loc[name].sort_values(ascending=False) ###
     for i in range(4):
@@ -184,7 +184,7 @@ except:
 
 
 # TITLE
-col1,mid,col2 = st.beta_columns([4,1,15])
+col1,mid,col2 = st.columns([4,1,15])
 with col2:
     st.title(info['longName'])
 with col1:
@@ -195,7 +195,7 @@ with col1:
 
 # GENERAL INFO
 
-generalInfo = st.beta_expander("General Information")
+generalInfo = st.expander("General Information")
 with generalInfo:
     try:
         st.write(longBusinessSummary)
@@ -206,7 +206,7 @@ with generalInfo:
     except:
         pass
 
-fundamentals = st.beta_expander("Fundamental Analysis",expanded=True)
+fundamentals = st.expander("Fundamental Analysis",expanded=True)
 with fundamentals:
     writeData(financials,"Total Revenue")
     writeData(financials,"Gross Profit")
@@ -218,7 +218,7 @@ with fundamentals:
     
     #st.dataframe(financials.style.apply(highlight_max))
 
-technicals = st.beta_expander("Technical Analysis",expanded=True)
+technicals = st.expander("Technical Analysis",expanded=True)
 
 
 
